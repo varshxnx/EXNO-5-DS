@@ -19,8 +19,8 @@ STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
 ```
-NAME : YAMUNAASRI T S
-REG NO : 212222240117
+NAME : VARSHINI S
+REG NO : 212222220056
 ```
 ```
 import matplotlib.pyplot as plt
@@ -29,7 +29,8 @@ y_val = [0,1,4,9,16,25]
 plt.plot(x_val,y_val)
 plt.show()
 ```
-![Screenshot 2024-04-25 222532](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/7ea276da-329c-4e1b-af27-3ccbc2e158e8)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/97b9aa5c-ea9c-44c3-9eab-27189241fe85)
+
 ```
 import matplotlib.pyplot as plt
 x = [1,2,3]
@@ -40,7 +41,8 @@ plt.ylabel('y-axis')
 plt.title('My first graph')
 plt.show()
 ```
-![Screenshot 2024-04-25 222628](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/53f92332-e90c-481d-b3db-b3a8b253211b)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/8e42f624-e639-47cf-a5c9-1b9342d7aca8)
+
 ```
 import matplotlib.pyplot as plt
 x1 = [1,2,3]
@@ -55,7 +57,8 @@ plt.title("Two lines on the same graph")
 plt.legend()
 plt.show()
 ```
-![Screenshot 2024-04-25 222724](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/2cc396f0-67ac-4526-9301-1126cb6eb146)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/6a175832-59cc-4f90-995b-3be1c84a6939)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -66,7 +69,8 @@ y3 = [2,4,6,8,10]
 plt.fill_between(x,y1,color = 'blue')
 plt.fill_between(x,y2,color = 'orange')
 ```
-![Screenshot 2024-04-25 222824](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/12d2d32e-2a72-4864-aeec-89af7b2f681d)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/51cbaa95-1cb6-431e-ad75-6f30b6ea6790)
+
 ```
 plt.stackplot(x,y1,y2,y3,labels = ['line1','line2','line3'])
 plt.legend(loc = 'upper left')
@@ -75,7 +79,8 @@ plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.show()
 ```
-![Screenshot 2024-04-25 222900](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/676db96f-5e9c-4ee4-a139-d42346831da8)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/40b29b16-437b-45a5-8282-a3f83766820a)
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -84,7 +89,8 @@ names = ['A','B','C','D']
 plt.bar(names, val,color = 'purple')
 plt.show()
 ```
-![Screenshot 2024-04-25 222938](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/7d71481a-1aa6-4b57-a5af-95af9b12a4be)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/434878d5-3927-4c3d-b2ec-42e0fae8ae61)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -97,7 +103,8 @@ plt.ylabel('no of people')
 plt.title('histogram')
 plt.show()
 ```
-![Screenshot 2024-04-25 223015](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/5b088d34-b1ee-4b3e-a229-39360d583bf6)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/487aedfb-1b8a-46f4-ac8a-1a9e31ee616b)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -105,7 +112,8 @@ np.random.seed(0)
 data=np.random.normal(loc=0,scale=1,size=100)
 data
 ```
-![Screenshot 2024-04-25 223122](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/d66d7f36-ff0d-41de-9fdd-1ebd34f79828)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/26cec230-8da2-43f3-89f4-9f47d0b787bd)
+
 ```
 fig,ax=plt.subplots()
 ax.boxplot(data)
@@ -113,7 +121,8 @@ ax.set_xlabel("data")
 ax.set_ylabel("values")
 ax.set_title("box plot")
 ```
-![Screenshot 2024-04-25 223203](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/4cdf0d14-c240-4e56-9ef1-ed0ac3eef7d2)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/d94160d5-7372-47af-9b19-f2f6fcefc1a5)
+
 ```
 import matplotlib.pyplot as plt
 activities=['eat','sleep','work','play']
@@ -123,7 +132,8 @@ plt.pie(slices,labels = slices,colors=colors,startangle=90,shadow = True,explode
 plt.legend()
 plt.show()
 ```
-![Screenshot 2024-04-25 223241](https://github.com/Yamunaasri/EXNO-5-DS/assets/115707860/ddb35914-91b3-478a-81cf-f76e9cc9c071)
+![image](https://github.com/varshxnx/EXNO-5-DS/assets/122253525/b4067a0f-ba7f-437d-954a-2dd29d30510b)
+
 
 # Result:
   Thus, We have successfullu performed Data Visualization using matplot python library for the given datas.
